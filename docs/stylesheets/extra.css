@@ -1,0 +1,30 @@
+.md-sidebar--primary {
+  width: 21rem !important;
+}
+
+
+.md-sidebar--primary .md-nav {
+  width: max-content !important;
+  min-width: 100% !important;
+}
+
+.md-grid {
+    max-width: 95% !important;
+}
+
+
+/* Crisper text rendering */
+body {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+}
+
+/* Slightly heavier text in dark mode */
+[data-md-color-scheme="slate"] {
+  --md-text-font-weight: 450;
+}
+
+[data-md-color-scheme="slate"] .md-typeset {
+  font-weight: 450;
+}
