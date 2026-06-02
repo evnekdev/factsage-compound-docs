@@ -1,6 +1,6 @@
 # Index
 
-FactSage software stores its databases in separate file formats for compounds and solutions. This document shares the lesser-known information about how Compound databases work internally, as well as provides the ways to inspect them, analyse, modify and compare outside the standard Compound Module interface of FactSage which some advanced users and people dealing with thermodynamic optimizations will find very useful.
+FactSage software stores its databases in separate file formats for compounds and solutions. This document shares the lesser-known information about how Compound databases work internally, as well as provides the ways to inspect them, analyse, modify and compare outside the standard Compound Module interface. Many advanced users and people dealing with thermodynamic optimizations will find this information very useful.
 
 Compound Module was developed by Jacques Melancon at CRCT, Ecole Polytechnique of Montreal, and apparently, was written in Delphi language.
 
