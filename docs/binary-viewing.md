@@ -12,7 +12,7 @@ Throughout this documentation, HxD is used to illustrate the binary layout of Co
 
 ## HxD snippets
 
-![HxD showing the CDB file header](images/hxd-overview.png)
+![HxD showing the CDB file header](images/hxd-overview.jpg)
 
 1. **Offset column** - file position in hexadecimal.
 2. **Hexadecimal view** - raw bytes stored in the file.
