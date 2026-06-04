@@ -11,6 +11,8 @@ theme:
   
 nav:
   - Overview : index.md
+  - Viewing Binary files : binary-viewing.md
+  - Deconstructing Binary formats : binary-deconstruction.md
   - Compound Database block types : block-types.md
   - Comparing databases (Excel + Python) : database-compare.md
     
