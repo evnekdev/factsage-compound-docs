@@ -80,13 +80,15 @@ body {
 
 .screenshot-row {
     display: flex;
-    /*grid-template-columns: repeat(3, 1fr);*/
     justify-content: center;
-    gap: 20ptx;
-    margin: 20ptx;
+    gap: 20px;
+    margin: 20px 0;
+	flex-wrap: wrap;
 }
 
 .screenshot-row figure {
+	flex: 1 1 300px;
+	max-width: 400px;
     margin: 0;
     text-align: center;
 }
@@ -102,6 +104,23 @@ body {
 .screenshot-row figcaption {
     margin-top: 8px;
     font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .screenshot-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .screenshot-row figure {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .screenshot-row img {
+        height: auto;
+        max-height: 360px;
+    }
 }
 
 /******************************************************************************************/
