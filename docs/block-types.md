@@ -71,16 +71,91 @@
 
 ### CP1 Block (ID 02)
 
+| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
+|---|---|---|---|
+| CHUNK_ID         | U1      | 1  | Block identifier (02) |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
 
 ### CP2 Block (ID 04)
 
+| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
+|---|---|---|---|
+| CHUNK_ID         | U1      | 1  | Block identifier (04) |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
 
 ### CP3 Block (ID 05)
 
+| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
+|---|---|---|---|
+| CHUNK_ID         | U1      | 1  | Block identifier (05) |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
+
 ### CP4 Block (ID 03)
+
+| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
+|---|---|---|---|
+| CHUNK_ID         | U1      | 1  | Block identifier (03) |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
 
 ### CP5 Block (ID 06)
 
+| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
+|---|---|---|---|
+| CHUNK_ID         | U1      | 1  | Block identifier (06) |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
+
 ## COMMENT Block (ID 10)
 
+| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
+|---|---|---|---|
+| CHUNK_ID         | U1      | 1  | Block identifier (10) |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
+
 ## KAPPA Block (ID 11)
+
+| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
+|---|---|---|---|
+| CHUNK_ID         | U1      | 1  | Block identifier (11) |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
