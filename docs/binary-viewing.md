@@ -13,7 +13,7 @@ Throughout this documentation, HxD is used to illustrate the binary layout of Co
 ## HxD snippets
 
 <figure markdown>
-  ![HxD showing the CDB file header](images/hxd-overview.jpg)
+  ![HxD showing the CDB file header](images/hxd-overview.jpg){ width="75%" .left}
   <figcaption>A screenshot of a CDB file opened in HxD viewer. </figcaption>
 </figure>
 
