@@ -17,15 +17,17 @@ All data in computers are stored as bytes. Every type (string, char, numeric) wh
 
 ## ASCII characters
 
-Standard English letters + numbers + punctuation marks are universally encoded using ASCII tables. This is the oldest and widely spread agreement of how characters should be mapped to bytes.
+Standard English letters, digits, punctuation marks, and control characters are encoded using the ASCII character set. ASCII was one of the earliest character encoding standards and remains the foundation of many modern encodings.
 
-ASCII character set consists of 128 characters (equal to 2^8, all possible states of a single byte).
+ASCII defines 128 characters, represented by 7-bit values ranging from 0 to 127. In practice, ASCII characters are often stored in a full byte, with the highest bit set to zero.
 
 ## Non-ASCII characters
 
-Non-English characters and extended symbols cannot fit into the 128 limit of a single byte, therefore, various extensions of ASCII were introduced. In early 1990s-2000s there was not a general agreement what symbols should be represented by what 2-byte combinations, and many different encoding tables existed. To open a document in Russian or German, one would need to select the correct encoding scheme.
+The original ASCII character set is limited to 128 characters and cannot represent most non-English alphabets or many special symbols. To address this limitation, numerous extended character encodings were developed, including ISO-8859 variants, Windows code pages, and other regional standards.
 
-Later, non-ASCII characters have been unified using UNICODE tables and UTF-8 system (UNICODE is the set of specifications and UTF-8 is an algorithm).
+Because different systems used different encodings, the same byte sequence could represent different characters depending on the selected code page. As a result, exchanging documents between systems often required knowing the correct encoding.
+
+Modern software typically uses Unicode, a universal character set designed to represent characters from virtually all writing systems. Unicode code points can be stored using several encoding schemes, the most common being UTF-8, UTF-16, and UTF-32. UTF-8 is currently the dominant encoding for text files and Internet communication.
 
 ## Binary representation of integers
 
