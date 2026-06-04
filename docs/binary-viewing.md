@@ -14,7 +14,7 @@ Throughout this documentation, HxD is used to illustrate the binary layout of Co
 
 <figure markdown>
   ![HxD showing the CDB file header](images/hxd-overview.jpg){ width="75%" }
-  <figcaption>A screenshot of a CDB file opened in HxD viewer. </figcaption>
+  <figcaption> A screenshot of a CDB file opened in HxD viewer. </figcaption>
 </figure>
 
 1. **Offset column** - file position in hexadecimal.
