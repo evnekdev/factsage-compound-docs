@@ -2,6 +2,9 @@
 site_name : FactSage Compound Databases - format and parsing
 site_url: https://evnekdev.github.io/factsage-compound-docs/
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
 
 extra_css:
   - stylesheets/extra.css
