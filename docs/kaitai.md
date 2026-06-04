@@ -16,22 +16,20 @@ More information about the project, including documentation, source code, and th
 
 A Kaitai parser can be downloaded [HERE.](downloads/compound-database.ksy)
 
-## Kaitai file structure editor. 
-
 <div class="image-row">
 
 <figure>
-  <img src"../images//kaitai-fs-compound.jpg", width="75%">
+  <img src="../images//kaitai-fs-compound.jpg", width="75%">
   <figcaption> Kaitai file structure editor. </figcaption>
 </figure>
 
 <figure>
-  <img src"../images//kaitai-object-tree.jpg", width="75%">
+  <img src="../images//kaitai-object-tree.jpg", width="75%">
   <figcaption> Parsed object tree of the loaded CDB file. </figcaption>
 </figure>
 
 <figure>
-  <img src"../images//kaitai-cdb-file.jpg", width="75%">
+  <img src="../images//kaitai-cdb-file.jpg", width="75%">
   <figcaption> Contents of the loaded CDB file. </figcaption>
 </figure>
 
