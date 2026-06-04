@@ -31,8 +31,8 @@
 | RESERVED STRING1 | 40 | ???                                                                    |
 | FORMULA NAME     | 40 | Formula string.                                                        |
 | UNKNOWN          | 4  | ???                                                                    |
-| UNIT ENERGY      | 4  | J/cal                                                                  |
-| UNIT PRESSURE    | 4  | atm/bar                                                                |
+| UNIT ENERGY      | 4  | J, cal                                                                 |
+| UNIT PRESSURE    | 4  | atm, bar                                                               |
 | RESERVED STRING2 | 12 | ???                                                                    |
 | COEFF REAL       | 28 | Real coefficients for fractional formulas, i.g. Fe0.986O               |
 | PADDING          | 24 | Filler type.                                                           |
