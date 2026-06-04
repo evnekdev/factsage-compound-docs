@@ -15,6 +15,11 @@
 | PADDING3             | B136        | 136    | Filler type                                                                 |
 | UNKNOWN2             | B12         | 12     | ???                                                                         |
 
+<figure markdown>
+  ![Compound module screenshot](images/compound-module.jpg){width="75%"}
+  <figcaption>A screenshot of the main Compound module interface. </figcaption>
+</figure>
+
 ## COMPOUND Block (ID 01)
 
 | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
@@ -36,6 +41,11 @@
 | RESERVED STRING2     | S12         | 12     | ???                                                                         |
 | COEFF REAL           | F8x7        | 28     | Real coefficients for fractional formulas, i.g. Fe0.986O                    |
 | PADDING              | B24         | 24     | Filler type.                                                                |
+
+<figure markdown>
+  ![Compound entry](images/compound-module-compound.jpg){width="75%"}
+  <figcaption>A compound entry to a database. </figcaption>
+</figure>
 
 ## PHASES Block
 
