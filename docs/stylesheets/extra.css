@@ -71,3 +71,28 @@ body {
     margin-top: 8px;
     font-style: italic;
 }
+
+.screenshot-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.screenshot-row figure {
+    margin: 0;
+    text-align: center;
+}
+
+.screenshot-row img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.screenshot-row figcaption {
+    margin-top: 0.75rem;
+    font-style: italic;
+}

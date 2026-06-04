@@ -42,7 +42,7 @@
 | COEFF REAL           | F8x7        | 28     | Real coefficients for fractional formulas, i.g. Fe0.986O                    |     `Real stochiometry`            |
 | PADDING              | B24         | 24     | Filler type.                                                                |               <N/A>                |
 
-<div class="image-row">
+<div class="screenshot-row">
 
 <figure>
   <img src="../images/compound-module-compound.jpg", width="100%">
@@ -63,7 +63,7 @@
 
 ## PHASES Block
 
-<div class="image-row">
+<div class="screenshot-row">
 
 <figure>
   <img src="../images/compound-module-phase1.jpg", width="100%">
