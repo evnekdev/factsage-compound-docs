@@ -2,18 +2,18 @@
 
 ## HEADER Block (ID 09)
 
-| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
-|---|---|---|---|
-| CHUNK_ID             | U8          | 1      | Block identifier (09)                                                       |
-| PADDING1             | B1          | 1      | Filler type                                                                 |
-| MAGIC                | B4          | 4      | Unique combination for Compound Databases.                                  |
-| PADDING2             | B2          | 2      | Filler type                                                                 |
-| TIMESTAMP            | OLEDATE     | 8      | Last change data, Windows OLE format.                                       |
-| READ_ONLY            | B1          | 1      | Nonzero if the database is write-protected (usually official databases).    |
-| UNKNOWN1             | B11         | 11     | ???                                                                         |
-| COMMENT              | S11         | 90     | Database description                                                        |
-| PADDING3             | B136        | 136    | Filler type                                                                 |
-| UNKNOWN2             | B12         | 12     | ???                                                                         |
+| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** | **Area on the screenshot** |
+|---|---|---|---|---|
+| CHUNK_ID             | U8          | 1      | Block identifier (09)                                                       |                                    |
+| PADDING1             | B1          | 1      | Filler type                                                                 |                                    |
+| MAGIC                | B4          | 4      | Unique combination for Compound Databases (=CMPD).                          |                                    |
+| PADDING2             | B2          | 2      | Filler type                                                                 |                                    |
+| TIMESTAMP            | OLEDATE     | 8      | Last change data, Windows OLE format.                                       |    ---                             |
+| READ_ONLY            | B1          | 1      | Nonzero if the database is write-protected (usually official databases).    | Greyed out entried if read-only.   |
+| UNKNOWN1             | B11         | 11     | ???                                                                         |                                    |
+| COMMENT              | S11         | 90     | Database description                                                        | Description box in the screenshot. |
+| PADDING3             | B136        | 136    | Filler type                                                                 |                                    |
+| UNKNOWN2             | B12         | 12     | ???                                                                         |                                    |
 
 <figure markdown>
   ![Compound module screenshot](images/compound-module.jpg){width="75%"}
