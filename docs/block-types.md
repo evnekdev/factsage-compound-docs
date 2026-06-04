@@ -45,17 +45,17 @@
 <div class="image-row">
 
 <figure>
-  <img src="../images/compound-module-compound.jpg", width="75%">
+  <img src="../images/compound-module-compound.jpg", width="100%">
   <figcaption>A compound entry to a database. </figcaption>
 </figure>
 
 <figure>
-  <img src="../images/compound-module-units.jpg", width="75%">
+  <img src="../images/compound-module-units.jpg", width="100%">
   <figcaption>Compound units. </figcaption>
 </figure>
 
 <figure>
-  <img src="../images/compound-module-extended-properties.jpg", width="75%">
+  <img src="../images/compound-module-extended-properties.jpg", width="100%">
   <figcaption>Extended properties. </figcaption>
 </figure>
 
