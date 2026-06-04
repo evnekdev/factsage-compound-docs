@@ -81,6 +81,7 @@ body {
 .screenshot-row {
     display: flex;
     /*grid-template-columns: repeat(3, 1fr);*/
+    justify-content: center;
     gap: 20ptx;
     margin: 20ptx;
 }
