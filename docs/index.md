@@ -29,7 +29,69 @@ Later, non-ASCII characters have been unified using UNICODE tables and UTF-8 sys
 
 ## Binary representation of integers
 
+
+Unless otherwise noted, all integer values in the compound database are stored as little-endian binary integers.
+
+An *N*-byte unsigned integer represents a value in the range 0 to 2<sup>8N</sup> − 1. The least significant byte is stored first, followed by increasingly significant bytes.
+
+For example, the 32-bit hexadecimal value `0x12345678` is stored as:
+
+```
+78 56 34 12
+```
+
+Signed integers use two's complement representation. In this encoding, the most significant bit serves as the sign bit, allowing both positive and negative values to be represented without requiring a separate sign field.
+
+Common integer types are:
+
+| Type   | Size    | Range                           |
+| ------ | ------- | ------------------------------- |
+| int8   | 1 byte  | −128 to 127                     |
+| uint8  | 1 byte  | 0 to 255                        |
+| int16  | 2 bytes | −32,768 to 32,767               |
+| uint16 | 2 bytes | 0 to 65,535                     |
+| int32  | 4 bytes | −2,147,483,648 to 2,147,483,647 |
+| uint32 | 4 bytes | 0 to 4,294,967,295              |
+
+Multi-byte integer values are always interpreted according to the endianness specified by the format.
+
+
 ## Binary representation of float values
+
+## Binary representation of floating-point values
+
+Floating-point values are stored using the IEEE 754 binary floating-point standard.
+
+A floating-point number is represented by three components:
+
+* **Sign bit** – indicates whether the value is positive or negative.
+* **Exponent** – determines the scale of the number.
+* **Mantissa (fraction)** – stores the significant digits of the value.
+
+The numerical value is approximately:
+
+```
+(-1)^sign × mantissa × 2^exponent
+```
+
+Two floating-point formats are commonly encountered:
+
+| Type    | Size    | Sign  | Exponent | Fraction |
+| ------- | ------- | ----- | -------- | -------- |
+| float32 | 4 bytes | 1 bit | 8 bits   | 23 bits  |
+| float64 | 8 bytes | 1 bit | 11 bits  | 52 bits  |
+
+For example, the decimal value `1.0` is encoded as:
+
+| Type    | Hexadecimal representation |
+| ------- | -------------------------- |
+| float32 | `3F800000`                 |
+| float64 | `3FF0000000000000`         |
+
+Floating-point values can represent a very large range of magnitudes, but most decimal values cannot be represented exactly. Consequently, small rounding errors may occur when converting between decimal and binary representations.
+
+Unless otherwise specified, floating-point values in the compound database are stored in little-endian byte order.
+
 
 ## HxD viewer/editor for binary files
 
