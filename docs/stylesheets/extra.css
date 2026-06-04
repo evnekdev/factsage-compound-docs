@@ -47,6 +47,9 @@ body {
     padding-bottom: 0.05rem !important;
 }
 
+/******************************************************************************************/
+/******************************************************************************************/
+
 .image-row {
     display: flex;
     gap: 20px;
@@ -72,10 +75,13 @@ body {
     font-style: italic;
 }
 
+/******************************************************************************************/
+/******************************************************************************************/
+
 .screenshot-row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    display: flex;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    gap: 20ptx;
     margin: 2rem 0;
 }
 
@@ -86,13 +92,16 @@ body {
 
 .screenshot-row img {
     width: 100%;
-    height: 260px;
+    height: 360px;
     object-fit: contain;
     background: white;
     border: 1px solid #ddd;
 }
 
 .screenshot-row figcaption {
-    margin-top: 0.75rem;
+    margin-top: 8px;
     font-style: italic;
 }
+
+/******************************************************************************************/
+/******************************************************************************************/
