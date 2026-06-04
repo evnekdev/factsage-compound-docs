@@ -2,6 +2,19 @@
 
 ## HEADER Block (ID 09)
 
+| **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
+|---|---|---|
+| CHUNK_ID | 1 | Block identifier |
+| PADDING1 | 1 | Filler type      |
+| MAGIC    | 4 | Unique combination for Compound Module to make sure it is actually the proper file type. |
+| PADDING2 | 2 | Filler type      |
+| DATE     | 8 | Last change data, Windows OLE format. |
+| READ_ONLY| 1 | Nonzero if the database is write-protected (usually official databases). |
+| UNKNOWN1 | 11 | ??? |
+| COMMENT  | 90 | Database description         |
+| PADDING3 | 136| Filler type                  |
+| UNKNOWN2 | 12 | ??? |
+
 ## COMPOUND Block (ID 01)
 
 ## PHASES Block
