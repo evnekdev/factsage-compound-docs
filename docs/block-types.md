@@ -20,17 +20,17 @@
 | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
 |---|---|---|---|
 | CHUNK_ID         | U1      | 1  | Block identifier (01) |
-| **ELEMENT_IDS**      | U1x7    | 7  | 1-Byte integers corresponding to element ids in PD, MAX 7 elements.    |
-| **ELEMENT_COEFFS**   | U1x7    | 7  | 1-Byte integers corresponding to element coefficients, MAX 7 elements. |
-| **CHARGE_RAW**       | I1      | 1  | Formula charge.                                                        |
-| **ENTRY NUMBER**     | U1      | 1  | Internal FactSage help.                                                |
-| **REFERENCE**        | U2      | 2  | Internal FactSage help.                                                |
-| **TIMESTAMP**        | OLEDATE | 8  | Last change data, Windows OLE format.                                  |
-| **UNKNOWN1**         | B2      | 2  | Filler type                                                            |
-| **COMPOUND NAME**    | S40     | 40 | Name of the compound.                                                  |
-| **RESERVED STRING1** | S40     | 40 | ???                                                                    |
-| **FORMULA NAME**     | S40     | 40 | Formula string.                                                        |
-| **UNKNOWN**          | B4      | 4  | ???                                                                    |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
+| COMPOUND NAME    | S40     | 40 | Name of the compound.                                                  |
+| RESERVED STRING1 | S40     | 40 | ???                                                                    |
+| FORMULA NAME     | S40     | 40 | Formula string.                                                        |
+| UNKNOWN          | B4      | 4  | ???                                                                    |
 | UNIT ENERGY      | ???     | 4  | J, cal                                                                 |
 | UNIT PRESSURE    | ???     | 4  | atm, bar                                                               |
 | RESERVED STRING2 | S12     | 12 | ???                                                                    |
@@ -44,13 +44,13 @@
 | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
 |---|---|---|---|
 | CHUNK_ID         | U1      | 1  | Block identifier (07) |
-| **ELEMENT_IDS**      | U1x7    | 7  | 1-Byte integers corresponding to element ids in PD, MAX 7 elements.    |
-| **ELEMENT_COEFFS**   | U1x7    | 7  | 1-Byte integers corresponding to element coefficients, MAX 7 elements. |
-| **CHARGE_RAW**       | I1      | 1  | Formula charge.                                                        |
-| **ENTRY NUMBER**     | U1      | 1  | Internal FactSage help.                                                |
-| **REFERENCE**        | U2      | 2  | Internal FactSage help.                                                |
-| **TIMESTAMP**        | OLEDATE | 8  | Last change data, Windows OLE format.                                  |
-| **UNKNOWN1**         | B2      | 2  | Filler type                                                            |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
 
 
 ### PHASE2 Block (ID 08)
@@ -58,13 +58,13 @@
 | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
 |---|---|---|---|
 | CHUNK_ID         | U1      | 1  | Block identifier (08) |
-| **ELEMENT_IDS**      | U1x7    | 7  | 1-Byte integers corresponding to element ids in PD, MAX 7 elements.    |
-| **ELEMENT_COEFFS**   | U1x7    | 7  | 1-Byte integers corresponding to element coefficients, MAX 7 elements. |
-| **CHARGE_RAW**       | I1      | 1  | Formula charge.                                                        |
-| **ENTRY NUMBER**     | U1      | 1  | Internal FactSage help.                                                |
-| **REFERENCE**        | U2      | 2  | Internal FactSage help.                                                |
-| **TIMESTAMP**        | OLEDATE | 8  | Last change data, Windows OLE format.                                  |
-| **UNKNOWN1**         | B2      | 2  | Filler type                                                            |
+| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**    |
+| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.** |
+| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                        |
+| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                |
+| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                |
+| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                  |
+| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
 
 
 ## CP Blocks
