@@ -16,6 +16,8 @@ More information about the project, including documentation, source code, and th
 
 A Kaitai parser can be downloaded [HERE.](downloads/compound-database.ksy)
 
+## Screenshots of the Kaitai Web IDE.
+
 <div class="image-row">
 
 <figure>
