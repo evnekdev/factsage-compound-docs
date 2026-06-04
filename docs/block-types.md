@@ -63,6 +63,30 @@
 
 ## PHASES Block
 
+<div class="image-row">
+
+<figure>
+  <img src="../images/compound-module-phase1.jpg", width="100%">
+  <figcaption>Phase I type. </figcaption>
+</figure>
+
+<figure>
+  <img src="../images/compound-module-phase2.jpg", width="100%">
+  <figcaption>Phase II type. </figcaption>
+</figure>
+
+<figure>
+  <img src="../images/compound-module-extended-properties.jpg", width="100%">
+  <figcaption>Extended properties. </figcaption>
+</figure>
+
+<figure>
+  <img src="../images/compound-module-extended-properties-gas.jpg", width="100%">
+  <figcaption>Gas extended properties. </figcaption>
+</figure>
+
+</div>
+
 ### PHASE1 Block (ID 07)
 
 | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
