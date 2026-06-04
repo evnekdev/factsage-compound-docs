@@ -51,10 +51,21 @@ body {
     display: flex;
     gap: 20px;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .image-row figure {
+    width: 320px;
     margin: 0;
     text-align: center;
+}
+
+.image-row img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-row figcaption {
+    margin-top: 8px;
 }
