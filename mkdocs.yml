@@ -10,10 +10,9 @@ theme:
   name: material
   
 nav:
-  - Home :
-    - Overview : index.md
-    - Compound Database block types : block-types.md
-    - Comparing databases (Excel + Python) : database-compare.md
+  - Overview : index.md
+  - Compound Database block types : block-types.md
+  - Comparing databases (Excel + Python) : database-compare.md
     
   
   
