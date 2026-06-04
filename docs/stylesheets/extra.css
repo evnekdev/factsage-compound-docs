@@ -98,7 +98,7 @@ body {
     height: 360px;
     object-fit: contain;
     background: white;
-    border: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
 }
 
 .screenshot-row figcaption {
