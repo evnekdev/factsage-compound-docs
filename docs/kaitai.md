@@ -1,0 +1,1 @@
+# Kaitai layout of Compound Databases
