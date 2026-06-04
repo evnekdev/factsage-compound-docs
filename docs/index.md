@@ -55,9 +55,6 @@ Common integer types are:
 
 Multi-byte integer values are always interpreted according to the endianness specified by the format.
 
-
-## Binary representation of float values
-
 ## Binary representation of floating-point values
 
 Floating-point values are stored using the IEEE 754 binary floating-point standard.
