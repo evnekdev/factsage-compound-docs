@@ -65,6 +65,20 @@
 | **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                 |
 | **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                   |
 | **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
+| TRANSITION ENTHALPY  |   F8        |   8    |                                                                             |
+| TRANSITION TEMPERATURE|  F8        |   8    |                                                                             |
+| PHASEID RAW PARENT   |   U4        |   4    |                                                                             |
+| PHASEID RAW          |   U4        |   4    |                                                                             |
+| DENSITY RAW          |   F8        |   8    |                                                                             |
+| T EXPANSION COEFFS   |   F4x4      |   16   |                                                                             |
+| COMPRESSIBILITY COEFFS|  F4x4      |   16   |                                                                             |
+| BULK MODULUS DERIV   |   F4x2      |   16   |                                                                             |
+| TEMPERATURE MAGN     |   F4        |   4    |                                                                             |
+| MOMENT MAGN          |   F4        |   4    |                                                                             |
+| PFACTOR              |   F4        |   4    |                                                                             |
+| PADDING              |   B20       |  20    |                                                                             |
+| PHASE NAME           |   S40       |  40    |                                                                             |
+| PADDING              |   B80       |  80    |                                                                             |
 
 
 ## CP Blocks
