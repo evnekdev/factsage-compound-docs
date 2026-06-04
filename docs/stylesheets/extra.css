@@ -82,7 +82,7 @@ body {
     display: flex;
     /*grid-template-columns: repeat(3, 1fr);*/
     gap: 20ptx;
-    margin: 2rem 0;
+    margin: 20ptx;
 }
 
 .screenshot-row figure {
