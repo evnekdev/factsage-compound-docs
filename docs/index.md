@@ -9,11 +9,11 @@ Compound Module was developed by Jacques Melancon at CRCT, Ecole Polytechnique o
 
 Open-access .DAT (old FactSage) or .SLN (new FactSage) formats of Solution Module store solution models as text. This is caused by the internal demand from the database developers who heavily rely on text file versioning and comparison software (such as Beyond Compare) to manage their databases.
 
-Binary file formats are the fastest in terms of loading into computer memory, since most of the time they structurally map to how data is laid out in computer memory (RAM). If someone to try to open a binary database (CDB) in a text editor, they would see only a bunch of illegible symbols with occasional short strings and names appearing at some places.
+Binary file formats are the fastest in terms of loading into computer memory, since most of the time they structurally map to how data is laid out in computer memory (RAM). If someone is to try to open a binary database (CDB) in a text editor, they would see only a bunch of illegible symbols with occasional short strings and names appearing at some places.
 
 ## Binary data representations
 
-All data in computers is stored as bytes. Every type (string, char, numeric) which is used when programming has its own bytes representation.
+All data in computers are stored as bytes. Every type (string, char, numeric) which is used when programming has its own bytes representation.
 
 Standard English letters + numbers + punctuation marks are universally encoded using ASCII tables. This is the oldest and widely spread agreement of how characters should be mapped to bytes.
 
