@@ -146,6 +146,8 @@
 | **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                 |
 | **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                   |
 | **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
+| COMMENT              | S80         |  80    | Comment string.                                                             |
+| PADDING              | B144        | 144    | Filler type.                                                                |
 
 ## KAPPA Block (ID 11)
 
