@@ -36,8 +36,8 @@
 | RESERVED STRING1     | S40         | 40     | ???                                                                         |                ???                 |
 | FORMULA NAME         | S40         | 40     | Formula string.                                                             |  Input string from `Formula`.      |
 | UNKNOWN              | B4          | 4      | ???                                                                         |               <N/A>                |
-| UNIT ENERGY          | ???         | 4      | J, cal                                                                      |               TODO                 |
-| UNIT PRESSURE        | ???         | 4      | atm, bar                                                                    |               TODO                 |
+| UNIT ENERGY          | ???         | 4      | J, cal                                                                      |     `Energy` menu.                 |
+| UNIT PRESSURE        | ???         | 4      | atm, bar                                                                    |     `Pressure` menu.               |
 | RESERVED STRING2     | S12         | 12     | ???                                                                         |                ???                 |
 | COEFF REAL           | F8x7        | 28     | Real coefficients for fractional formulas, i.g. Fe0.986O                    |               TODO                 |
 | PADDING              | B24         | 24     | Filler type.                                                                |               <N/A>                |
@@ -55,8 +55,8 @@
 </figure>
 
 <figure>
-  <img src="../images/compound-module-extended-properties.jpg", width="100%">
-  <figcaption>Extended properties. </figcaption>
+  <img src="../images/compound-module-real-stoic.jpg", width="100%">
+  <figcaption>Real stoichiometry. </figcaption>
 </figure>
 
 </div>
