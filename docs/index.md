@@ -15,11 +15,33 @@ Binary file formats are the fastest in terms of loading into computer memory, si
 
 All data in computers are stored as bytes. Every type (string, char, numeric) which is used when programming has its own bytes representation.
 
+## ASCII characters
+
 Standard English letters + numbers + punctuation marks are universally encoded using ASCII tables. This is the oldest and widely spread agreement of how characters should be mapped to bytes.
 
 ASCII character set consists of 128 characters (equal to 2^8, all possible states of a single byte).
 
+## Non-ASCII characters
+
 Non-English characters and extended symbols cannot fit into the 128 limit of a single byte, therefore, various extensions of ASCII were introduced. In early 1990s-2000s there was not a general agreement what symbols should be represented by what 2-byte combinations, and many different encoding tables existed. To open a document in Russian or German, one would need to select the correct encoding scheme.
 
 Later, non-ASCII characters have been unified using UNICODE tables and UTF-8 system (UNICODE is the set of specifications and UTF-8 is an algorithm).
+
+## Binary representation of integers
+
+## Binary representation of float values
+
+## HxD viewer/editor for binary files
+
+<https://mh-nexus.de/en/hxd/>
+
+
+## Kaitai project for binary format parsing
+
+<https://kaitai.io/>
+
+
+## Compound database structure
+
+A Kaitai parser can be downloaded [HERE](../downloads/compound-database.ksy)
 
