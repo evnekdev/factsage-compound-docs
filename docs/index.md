@@ -91,18 +91,3 @@ Floating-point values can represent a very large range of magnitudes, but most d
 
 Unless otherwise specified, floating-point values in the compound database are stored in little-endian byte order.
 
-
-## HxD viewer/editor for binary files
-
-<https://mh-nexus.de/en/hxd/>
-
-
-## Kaitai project for binary format parsing
-
-<https://kaitai.io/>
-
-
-## Compound database structure
-
-A Kaitai parser can be downloaded [HERE.](downloads/compound-database.ksy)
-
