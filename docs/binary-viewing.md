@@ -13,8 +13,8 @@ Throughout this documentation, HxD is used to illustrate the binary layout of Co
 ## HxD snippets
 
 <figure markdown>
-![HxD showing the CDB file header](images/hxd-overview.jpg)
-<figcaption>A screenshot of a CDB file opened in HxD viewer. </figcaption>
+  ![HxD showing the CDB file header](images/hxd-overview.jpg)
+  <figcaption>A screenshot of a CDB file opened in HxD viewer. </figcaption>
 </figure>
 
 1. **Offset column** - file position in hexadecimal.
