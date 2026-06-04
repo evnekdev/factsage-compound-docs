@@ -39,7 +39,7 @@
 | UNIT ENERGY          | ???         | 4      | J, cal                                                                      |     `Energy` menu.                 |
 | UNIT PRESSURE        | ???         | 4      | atm, bar                                                                    |     `Pressure` menu.               |
 | RESERVED STRING2     | S12         | 12     | ???                                                                         |                ???                 |
-| COEFF REAL           | F8x7        | 28     | Real coefficients for fractional formulas, i.g. Fe0.986O                    |               TODO                 |
+| COEFF REAL           | F8x7        | 28     | Real coefficients for fractional formulas, i.g. Fe0.986O                    |     `Real stochiometry`            |
 | PADDING              | B24         | 24     | Filler type.                                                                |               <N/A>                |
 
 <div class="image-row">
