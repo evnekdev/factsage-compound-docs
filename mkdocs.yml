@@ -13,7 +13,7 @@ nav:
   - Home :
     - Overview : index.md
     - Compound Database block types : block-types.md
-    - Comparing Compound Database versions in Excel + Python xlwings : database-compare.md
+    - Comparing databases (Excel + Python) : database-compare.md
     
   
   
