@@ -26,3 +26,4 @@ Throughout this documentation, HxD is used to illustrate the binary layout of Co
   ![Available data types in HxD editor](images/hxd-types.jpg){ width="75%" }
   <figcaption>Available data types in HxD editor. </figcaption>
 </figure>
+

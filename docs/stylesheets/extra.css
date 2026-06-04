@@ -47,3 +47,14 @@ body {
     padding-bottom: 0.05rem !important;
 }
 
+.image-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-row figure {
+    margin: 0;
+    text-align: center;
+}
