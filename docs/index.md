@@ -43,5 +43,5 @@ Later, non-ASCII characters have been unified using UNICODE tables and UTF-8 sys
 
 ## Compound database structure
 
-A Kaitai parser can be downloaded [HERE](../downloads/compound-database.ksy)
+A Kaitai parser can be downloaded [HERE.](docs/downloads/compound-database.ksy)
 
