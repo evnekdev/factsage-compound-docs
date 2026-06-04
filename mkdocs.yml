@@ -12,7 +12,8 @@ theme:
 nav:
   - Home :
     - Overview : index.md
-    - Theoretical basis: theory.md
-  
+    - Compound Database block types : block-types.md
+    - Comparing Compound Database versions in Excel + Python xlwings : database-compare.md
+    
   
   
