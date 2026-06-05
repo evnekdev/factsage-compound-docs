@@ -214,18 +214,18 @@
 
   - ### Comment block
     
-    | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
-    |---|---|---|---|
-    | CHUNK_ID             | U1          |   1    | Block identifier (10)                                                       |
-    | **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**     |
-    | **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.**  |
-    | **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                         |
-    | **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                 |
-    | **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                 |
-    | **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                   |
-    | **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
-    | COMMENT              | S80         |  80    | Comment string.                                                             |
-    | PADDING              | B144        | 144    | Filler type.                                                                |
+    | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** | **Area on the screenshot** |
+    |---|---|---|---|---|
+    | CHUNK_ID             | U1          |   1    | Block identifier (10)                                                       | |
+    | **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**     | |
+    | **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.**  | |
+    | **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                         | |
+    | **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                 | |
+    | **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                 | |
+    | **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                   | |
+    | **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            | |
+    | COMMENT              | S80         |  80    | Comment string.                                                             | |
+    | PADDING              | B144        | 144    | Filler type.                                                                | |
 
 </div>
 
@@ -237,7 +237,7 @@
 
 <figure>
   <img src="../images/compound-module-kappa.jpg", width="100%">
-  <figcaption>Phase comments. </figcaption>
+  <figcaption>Diffusivity? properties. </figcaption>
 </figure>
 
 </div>
@@ -246,26 +246,26 @@
 
   - ### KAPPA block
     
-    | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
-    |---|---|---|---|
-    | CHUNK_ID         | U1      | 1  | Block identifier (11) |
-    | **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**     |
-    | **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.**  |
-    | **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                         |
-    | **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                 |
-    | **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                 |
-    | **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                   |
-    | **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |
-    | TMIN                 | F8          | 8      | Minimum interval temperature.                                               |
-    | TMAX                 | F8          | 8      | Maximum interval temperature.                                               |
-    | PHASEID RAW          | U4          | 4      | ???.                                                                        |
-    | F1T COEFF            | F8x10       | 80     | ???.                                                                        |
-    | F1T POWER            | F4x8        | 32     | ???.                                                                        |
-    | F2P COEFF            | F8x3        | 24     | ???.                                                                        |
-    | F2P POWER            | F4x2        | 8      | ???.                                                                        |
-    | F3T COEFF            | F8x5        | 40     | ???.                                                                        |
-    | F3T POWER            | F4x3        | 12     | ???.                                                                        |
-    | PADDING              | B4          | 4      | Filler type.                                                                |
+    | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** | **Area on the screenshot** |
+    |---|---|---|---|---|
+    | CHUNK_ID             | U1          |   1    | Block identifier (11)                                                       | |
+    | **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**     | |
+    | **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.**  | |
+    | **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                         | |
+    | **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                 | |
+    | **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                 | |
+    | **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                   | |
+    | **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            | |
+    | TMIN                 | F8          | 8      | Minimum interval temperature.                                               | |
+    | TMAX                 | F8          | 8      | Maximum interval temperature.                                               | |
+    | PHASEID RAW          | U4          | 4      | ???.                                                                        | |
+    | F1T COEFF            | F8x10       | 80     | ???.                                                                        | |
+    | F1T POWER            | F4x8        | 32     | ???.                                                                        | |
+    | F2P COEFF            | F8x3        | 24     | ???.                                                                        | |
+    | F2P POWER            | F4x2        | 8      | ???.                                                                        | |
+    | F3T COEFF            | F8x5        | 40     | ???.                                                                        | |
+    | F3T POWER            | F4x3        | 12     | ???.                                                                        | |
+    | PADDING              | B4          | 4      | Filler type.                                                                | |
 
 </div>
 
