@@ -203,6 +203,15 @@
 
 <div class="grid cards" markdown>
 
+<figure>
+  <img src="../images/compound-module-compound.jpg", width="100%">
+  <figcaption>Phase comments. </figcaption>
+</figure>
+
+</div>
+
+<div class="grid cards" markdown>
+
   - ### Comment block
     
     | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
@@ -223,6 +232,15 @@
 
 
 ## KAPPA Block (ID 11)
+
+<div class="grid cards" markdown>
+
+<figure>
+  <img src="../images/compound-module-kappa.jpg", width="100%">
+  <figcaption>Phase comments. </figcaption>
+</figure>
+
+</div>
 
 <div class="grid cards" markdown>
 
