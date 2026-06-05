@@ -165,6 +165,15 @@
 
 <div class="grid cards" markdown>
 
+<figure>
+  <img src="../images/compound-module-cp.jpg", width="100%">
+  <figcaption>Cp ranges. </figcaption>
+</figure>
+
+</div>
+
+<div class="grid cards" markdown>
+
   - ### CP Block (ID 02-06)
     
     | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
