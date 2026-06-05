@@ -2,6 +2,11 @@
 
 ## HEADER Block (ID 09)
 
+<figure markdown>
+  ![Compound module screenshot](images/compound-module.jpg){width="75%"}
+  <figcaption>A screenshot of the main Compound module interface. </figcaption>
+</figure>
+
 | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** | **Area on the screenshot** |
 |---|---|---|---|---|
 | CHUNK_ID             | U8          | 1      | Block identifier (09)                                                       |              <N/A>                 |
@@ -15,12 +20,27 @@
 | PADDING3             | B136        | 136    | Filler type                                                                 |              <N/A>                 |
 | UNKNOWN2             | B12         | 12     | ???                                                                         |              <N/A>                 |
 
-<figure markdown>
-  ![Compound module screenshot](images/compound-module.jpg){width="75%"}
-  <figcaption>A screenshot of the main Compound module interface. </figcaption>
-</figure>
 
 ## COMPOUND Block (ID 01)
+
+<div class="screenshot-row">
+
+<figure>
+  <img src="../images/compound-module-compound.jpg", width="100%">
+  <figcaption>A compound entry to a database. </figcaption>
+</figure>
+
+<figure>
+  <img src="../images/compound-module-units.jpg", width="100%">
+  <figcaption>Compound units. </figcaption>
+</figure>
+
+<figure>
+  <img src="../images/compound-module-real-stoic.jpg", width="100%">
+  <figcaption>Real stoichiometry. </figcaption>
+</figure>
+
+</div>
 
 | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** | **Area on the screenshot** |
 |---|---|---|---|---|
@@ -41,25 +61,6 @@
 | RESERVED STRING2     | S12         | 12     | ???                                                                         |                ???                 |
 | COEFF REAL           | F8x7        | 28     | Real coefficients for fractional formulas, i.g. Fe0.986O                    |     `Real stochiometry`            |
 | PADDING              | B24         | 24     | Filler type.                                                                |               <N/A>                |
-
-<div class="screenshot-row">
-
-<figure>
-  <img src="../images/compound-module-compound.jpg", width="100%">
-  <figcaption>A compound entry to a database. </figcaption>
-</figure>
-
-<figure>
-  <img src="../images/compound-module-units.jpg", width="100%">
-  <figcaption>Compound units. </figcaption>
-</figure>
-
-<figure>
-  <img src="../images/compound-module-real-stoic.jpg", width="100%">
-  <figcaption>Real stoichiometry. </figcaption>
-</figure>
-
-</div>
 
 ## PHASES Block
 
