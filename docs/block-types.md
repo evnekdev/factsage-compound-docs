@@ -7,19 +7,24 @@
   <figcaption>A screenshot of the main Compound module interface. </figcaption>
 </figure>
 
-| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** | **Area on the screenshot** |
-|---|---|---|---|---|
-| CHUNK_ID             | U8          | 1      | Block identifier (09)                                                       |              <N/A>                 |
-| PADDING1             | B1          | 1      | Filler type                                                                 |              <N/A>                 |
-| MAGIC                | B4          | 4      | Unique combination for Compound Databases (=CMPD).                          |              <N/A>                 |
-| PADDING2             | B2          | 2      | Filler type                                                                 |              <N/A>                 |
-| TIMESTAMP            | OLEDATE     | 8      | Last change data, Windows OLE format.                                       |              <N/A>                 |
-| READ_ONLY            | B1          | 1      | Nonzero if the database is write-protected (usually official databases).    | Greyed out entries if read-only.   |
-| UNKNOWN1             | B11         | 11     | ???                                                                         |              <N/A>                 |
-| COMMENT              | S11         | 90     | Database description                                                        | Description box in the screenshot. |
-| PADDING3             | B136        | 136    | Filler type                                                                 |              <N/A>                 |
-| UNKNOWN2             | B12         | 12     | ???                                                                         |              <N/A>                 |
+<div class="grid cards" markdown>
 
+  - ### Header section
+    
+    | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** | **Area on the screenshot** |
+    |---|---|---|---|---|
+    | CHUNK_ID             | U8          | 1      | Block identifier (09)                                                       |              <N/A>                 |
+    | PADDING1             | B1          | 1      | Filler type                                                                 |              <N/A>                 |
+    | MAGIC                | B4          | 4      | Unique combination for Compound Databases (=CMPD).                          |              <N/A>                 |
+    | PADDING2             | B2          | 2      | Filler type                                                                 |              <N/A>                 |
+    | TIMESTAMP            | OLEDATE     | 8      | Last change data, Windows OLE format.                                       |              <N/A>                 |
+    | READ_ONLY            | B1          | 1      | Nonzero if the database is write-protected (usually official databases).    | Greyed out entries if read-only.   |
+    | UNKNOWN1             | B11         | 11     | ???                                                                         |              <N/A>                 |
+    | COMMENT              | S11         | 90     | Database description                                                        | Description box in the screenshot. |
+    | PADDING3             | B136        | 136    | Filler type                                                                 |              <N/A>                 |
+    | UNKNOWN2             | B12         | 12     | ???                                                                         |              <N/A>                 |
+
+</div>
 
 ## COMPOUND Block (ID 01)
 
@@ -42,25 +47,31 @@
 
 </div>
 
-| **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** | **Area on the screenshot** |
-|---|---|---|---|---|
-| CHUNK_ID             | U1          |   1    | Block identifier (01)                                                       |                                    |
-| **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**     | Parsed from `Formula` entry box.   |
-| **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.**  | Parsed from `Formula` entry box.   |
-| **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                         | Parsed from `Formula` entry box.   |
-| **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                 | `Reference no.` boxes (which one?).|
-| **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                 | `Reference no.` boxes (which one?).|
-| **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                   | `Modified :` above `Reference no.` |
-| **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |               <N/A>                |
-| COMPOUND NAME        | S40         | 40     | Name of the compound.                                                       |  `Compound name` box.              |
-| RESERVED STRING1     | S40         | 40     | ???                                                                         |                ???                 |
-| FORMULA NAME         | S40         | 40     | Formula string.                                                             |  Input string from `Formula`.      |
-| UNKNOWN              | B4          | 4      | ???                                                                         |               <N/A>                |
-| UNIT ENERGY          | ???         | 4      | J, cal                                                                      |     `Energy` menu.                 |
-| UNIT PRESSURE        | ???         | 4      | atm, bar                                                                    |     `Pressure` menu.               |
-| RESERVED STRING2     | S12         | 12     | ???                                                                         |                ???                 |
-| COEFF REAL           | F8x7        | 28     | Real coefficients for fractional formulas, i.g. Fe0.986O                    |     `Real stochiometry`            |
-| PADDING              | B24         | 24     | Filler type.                                                                |               <N/A>                |
+<div class="grid cards" markdown>
+
+  - ### Compound block
+    
+    | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** | **Area on the screenshot** |
+    |---|---|---|---|---|
+    | CHUNK_ID             | U1          |   1    | Block identifier (01)                                                       |                                    |
+    | **ELEMENT_IDS**      | **U1x7**    | **7**  | **1-Byte integers corresponding to element ids in PD, MAX 7 elements.**     | Parsed from `Formula` entry box.   |
+    | **ELEMENT_COEFFS**   | **U1x7**    | **7**  | **1-Byte integers corresponding to element coefficients, MAX 7 elements.**  | Parsed from `Formula` entry box.   |
+    | **CHARGE_RAW**       | **I1**      | **1**  | **Formula charge.**                                                         | Parsed from `Formula` entry box.   |
+    | **ENTRY NUMBER**     | **U1**      | **1**  | **Internal FactSage help.**                                                 | `Reference no.` boxes (which one?).|
+    | **REFERENCE**        | **U2**      | **2**  | **Internal FactSage help.**                                                 | `Reference no.` boxes (which one?).|
+    | **TIMESTAMP**        | **OLEDATE** | **8**  | **Last change data, Windows OLE format.**                                   | `Modified :` above `Reference no.` |
+    | **UNKNOWN1**         | **B2**      | **2**  | **Filler type.**                                                            |               <N/A>                |
+    | COMPOUND NAME        | S40         | 40     | Name of the compound.                                                       |  `Compound name` box.              |
+    | RESERVED STRING1     | S40         | 40     | ???                                                                         |                ???                 |
+    | FORMULA NAME         | S40         | 40     | Formula string.                                                             |  Input string from `Formula`.      |
+    | UNKNOWN              | B4          | 4      | ???                                                                         |               <N/A>                |
+    | UNIT ENERGY          | ???         | 4      | J, cal                                                                      |     `Energy` menu.                 |
+    | UNIT PRESSURE        | ???         | 4      | atm, bar                                                                    |     `Pressure` menu.               |
+    | RESERVED STRING2     | S12         | 12     | ???                                                                         |                ???                 |
+    | COEFF REAL           | F8x7        | 28     | Real coefficients for fractional formulas, i.g. Fe0.986O                    |     `Real stochiometry`            |
+    | PADDING              | B24         | 24     | Filler type.                                                                |               <N/A>                |
+
+</div>
 
 ## PHASES Block
 
