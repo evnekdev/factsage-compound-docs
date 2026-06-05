@@ -2,10 +2,14 @@
 
 ## HEADER Block (ID 09)
 
-<figure markdown>
-  ![Compound module screenshot](images/compound-module.jpg){width="75%"}
+<div class="grid cards" markdown>
+
+<figure>
+  <img src="../images/compound-module.jpg", width="100%">
   <figcaption>A screenshot of the main Compound module interface. </figcaption>
 </figure>
+
+</div>
 
 <div class="grid cards" markdown>
 
@@ -28,7 +32,7 @@
 
 ## COMPOUND Block (ID 01)
 
-<div class="screenshot-row">
+<div class="grid cards" markdown>
 
 <figure>
   <img src="../images/compound-module-compound.jpg", width="100%">
