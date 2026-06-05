@@ -179,7 +179,8 @@
 
 <div class="grid cards" markdown>
 
-  - Comment block
+  - ### Comment block
+    
     | **NAME** | **TYPE** | **SIZE, BYTES** | **DESCRIPTION** |
     |---|---|---|---|
     | CHUNK_ID             | U1          |   1    | Block identifier (10)                                                       |
