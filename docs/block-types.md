@@ -79,7 +79,7 @@
 
 ## PHASES Block
 
-<div class="screenshot-row">
+<div class="grid cards" markdown>
 
 <figure>
   <img src="../images/compound-module-phase1.jpg", width="100%">
