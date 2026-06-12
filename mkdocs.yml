@@ -12,6 +12,11 @@ extra_css:
 theme:
   name: material
   
+extra:
+  analytics:
+    provider: google
+    property: G-TPRW8K1JNP
+  
 nav:
   - Overview : index.md
   - FactSage Compound Module : compound-module.md
